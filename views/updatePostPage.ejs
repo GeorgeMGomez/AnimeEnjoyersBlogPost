@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+    <div class="form-container">
+        <h1 class="form-text">Fill the form for creating your blog</h1>
+        <form class = "form-container form" action="/updatePostPage/<%=blogDetails.id%>" method="post">
+            <label for = "bTitle">Blog Title</label>
+            <input class = "bInput blogTitle" type="text" id="bTitle" name="bTitle" value="<%=blogDetails.title%>" required/>
+            <label for="bDes">Blog Description</label>
+            <div class="textareaContainer">
+                <textarea  class = "bInput blogDescription" type="text" id="bDes" name="bDes" required><%=blogDetails.description%></textarea>
+                <input class ="bButton" type="submit" value="UPDATE"/>
+            </div>
+        </form>
+    </div>
+<%- include("partials/footer.ejs") %>
