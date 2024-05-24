@@ -1,0 +1,185 @@
+.aboutPageContent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size:20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #F6F6E9;
+    letter-spacing: 2px;
+}
+
+.luffyLogo{
+    height:349.1px;
+    width:423.2px;
+}
+
+.aboutPageContent > h1{
+    font-size:30px;
+}
+
+.form-container{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #F6F6E9;
+}
+
+.form-text{
+    margin-bottom:5px;
+}
+
+.form-container .form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+
+textarea{
+    resize:none;
+}
+
+.bInput{
+    border:none;
+    border-radius: 30px;
+    width:1000px;
+    height:20px;
+    background-color: #F6F6E9;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size:20px;
+    margin-left:10px;
+    padding: 20px 20px;
+}
+
+::placeholder{
+    color:black;
+    opacity:1;
+}
+
+.blogDescription{
+    height:300px;
+    display:inline-block;
+}
+
+.textareaContainer{
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap:50px;
+    margin-left:150px;
+}
+
+ .bButton{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #7B3911;
+    border: none;
+    border-radius: 50px;
+    width:100px;
+    height:50px;
+    background-color: #F6F6E9;
+    cursor:pointer;
+}
+
+.grid-overflow{
+    margin-top:50px;
+    overflow-y: auto;
+    height:500px;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(2, 650px);
+    grid-auto-rows: 210px;
+    gap:50px;
+    row-gap: 25px;
+    justify-content: center;;
+}
+
+.blogCard{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    background-color: #F6F6E9;
+    border-radius:15px;
+    white-space: initial;
+    text-align: justify;
+}
+
+.blogCardContent{
+    font-family: "Montserrat", sans-serif;
+    margin-left:15px;
+    margin-right: 15px;
+    margin-bottom:15px;
+}
+
+.blogCardContent > h2{
+    font-size:25px;
+    margin-top:10px;
+    margin-bottom:0px;
+}
+
+.blogCardContent > p{
+    font-size:15px;
+}
+
+.view-btn{
+    color:blue; 
+}
+
+.edit-delete-container{
+    position:absolute;
+    top:175px;
+    left:510px;
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+.editButton{
+    background-color: blue;
+    color:white;
+    padding:5px 10px;
+    border-radius:10px;
+}
+
+.deleteButton{
+    background-color: red;
+    color: white;
+    border:none;
+    border-radius:10px;
+    padding:6px 10px;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.view-container{
+    margin:0px 150px 25px 150px;
+    text-align: justify;
+}
+
+.view-blogCard{
+    background-color: #F6F6E9;
+    padding:3px 15px 15px 15px;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.view-overflow{
+    margin-top:25px;
+    overflow-y: auto;
+    height:545px;
+}

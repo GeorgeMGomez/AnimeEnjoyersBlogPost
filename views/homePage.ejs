@@ -1,0 +1,30 @@
+<%- include("partials/header.ejs") %>
+
+<% if (blogList.length<1) {%>
+        <h1>There are currently no blogs in this website</h1>
+<%} else {%>
+    <div class="grid-overflow">
+        <div class="grid-container">
+            <% for( let index=0; index < blogList.length; index++ ) { %>
+                <div class="blogCard">
+                    <div class="blogCardContent">
+                        <h2><%=blogList[index].title%></h2>
+                        <p><%=blogList[index].description.slice(0,500)%> 
+                           <%if(blogList[index].description.length>499){%>
+                            <span><a class="view-btn" href="/viewPostPage/<%=blogList[index].id%>">--View Blog</a></span>
+                           <%}%>
+                        </p>
+                        <div class="edit-delete-container">
+                            <a class="editButton" href="/updatePostPage/<%=blogList[index].id%>">Edit</a>
+                            <form class="form-container-delete" action="/delete/<%=blogList[index].id%>" method="post">
+                                <input class ="deleteButton" type="submit" value="Delete"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            <%}%>
+        </div>
+    </div>
+<%}%>
+
+<%- include("partials/footer.ejs") %>
