@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/346329a4-15a3-458e-8123-d59d7f2b512d/resourceGroups/Anime-Enjoyers/providers/Microsoft.Web/sites/Anime-Enjoyers",
+    "appService.deploySubpath": "."
+}
