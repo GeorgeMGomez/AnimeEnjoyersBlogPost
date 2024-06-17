@@ -1,4 +1,4 @@
 # AnimeEnjoyersBlogPost
 A blog post for the discord server "anime enjoyers". 
 
-Will add more features along the way.
+Just a personal project of mine.
