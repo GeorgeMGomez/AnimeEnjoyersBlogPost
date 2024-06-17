@@ -9,7 +9,7 @@ First clone the repository by typing the command in your console:
 ```
 git clone https://github.com/GeorgeMGomez/AnimeEnjoyersBlogPost.git
 ```
-Next cd to the directory of the clone and istall npm by typing the command:
+Next cd to the directory of the clone and install npm by typing the command:
 ```
 npm i
 ```
